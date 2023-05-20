@@ -16,9 +16,11 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/ui/*": ["ui/*"],
+      "@/design-system/*": ["design-system/*"],
+      "@/components/*": ["components/*"],
       "@/lib/*": ["lib/*"],
-      "@/styles/*": ["styles/*"]
+      "@/styles/*": ["styles/*"],
+      "@/app/*": ["app/*"]
     },
     "plugins": [
       {

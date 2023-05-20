@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+
 export default function RootLayout({
   children,
 }: {
@@ -7,7 +8,10 @@ export default function RootLayout({
   return (
     <html>
       <head>
-        <title>Check Pairs Demo</title>
+        <title>
+          Legion Health | Texas psychiatry covered by insurance - get treatment
+          for anxiety today
+        </title>
       </head>
       <body className='bg-slate-800'>{children}</body>
     </html>
