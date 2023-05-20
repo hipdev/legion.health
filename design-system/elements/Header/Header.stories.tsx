@@ -15,7 +15,7 @@ export const HeaderWhite: Story = {
   args: {},
   render: (args) => (
     <div className=' '>
-      <div className='container mx-auto'>
+      <div className='container mx-auto max-w-screen-xl'>
         <Header {...args} />
       </div>
     </div>
