@@ -4,7 +4,9 @@ import { twMerge } from 'tailwind-merge'
 const button = cva('rounded-2sm font-medium', {
   variants: {
     intent: {
-      primary: ['text-white bg-blue-400'],
+      primary: [
+        'text-white bg-gradient-to-r from-primary to-primary/70 hover:to-primary/90 transition-colors',
+      ],
       secondary: [
         'text-black/70 bg-white border border-gray-200 shadow-sm hover:border-gray-300',
       ],

@@ -10,7 +10,7 @@ const Header = () => {
     <header className='flex items-center justify-between pt-3'>
       <div className='flex items-center gap-16'>
         <Image src={logo} alt='logo' width='146' height='40' />
-        <nav className='flex gap-5 font-medium text-black/70'>
+        <nav className='flex gap-8 font-medium text-black/70'>
           {links.map((link) => (
             <Link key={link} href='#'>
               {link}
