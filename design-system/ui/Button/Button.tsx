@@ -5,7 +5,9 @@ const button = cva('rounded-2sm font-medium', {
   variants: {
     intent: {
       primary: ['text-white bg-blue-400'],
-      secondary: ['text-white'],
+      secondary: [
+        'text-black/70 bg-white border border-gray-200 shadow-sm hover:border-gray-300',
+      ],
     },
     size: {
       small: ['text-sm px-2 py-1'],
