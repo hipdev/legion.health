@@ -1,3 +1,4 @@
+import Header from '@/design-system/elements/Header/Header'
 import { Button } from '@/design-system/index'
 
 export default function SiteLayout({
@@ -7,7 +8,9 @@ export default function SiteLayout({
 }) {
   return (
     <main>
-      <Button type='button'>This is a button</Button>
+      <div className='main-wrapper'>
+        <Header />
+      </div>
       {children}
     </main>
   )

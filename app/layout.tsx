@@ -1,4 +1,12 @@
+import { Inter } from 'next/font/google'
+import clsx from 'clsx'
+
 import '@/styles/globals.css'
+
+const inter = Inter({
+  variable: '--font-inter',
+  subsets: ['latin'],
+})
 
 export default function RootLayout({
   children,
@@ -13,7 +21,7 @@ export default function RootLayout({
           for anxiety today
         </title>
       </head>
-      <body className='bg-slate-800'>{children}</body>
+      <body className={clsx(inter.variable, 'font-sans')}>{children}</body>
     </html>
   )
 }

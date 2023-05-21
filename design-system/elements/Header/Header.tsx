@@ -1,22 +1,15 @@
 import Image from 'next/image'
-import Link from 'next/link'
+
 import logo from '../../../public/legion-logo.png'
 import { Button } from '@/design-system/index'
-
-const links = ['Home', 'Providers', 'Contact us', 'Contracts', 'Blog']
+import HeaderNav from './HeaderNav'
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-between pt-3'>
+    <header className='flex items-center justify-between py-5'>
       <div className='flex items-center gap-16'>
         <Image src={logo} alt='logo' width='146' height='40' />
-        <nav className='flex gap-8 font-medium text-black/70'>
-          {links.map((link) => (
-            <Link key={link} href='#'>
-              {link}
-            </Link>
-          ))}
-        </nav>
+        <HeaderNav />
       </div>
       <div className='flex gap-2'>
         <Button intent='secondary'>Login</Button>

@@ -13,3 +13,7 @@ input::-webkit-inner-spin-button {
 input[type='number'] {
   -moz-appearance: textfield;
 }
+
+.main-wrapper {
+  @apply mx-auto max-w-screen-xl px-8 2xl:px-0;
+}
