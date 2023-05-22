@@ -1,5 +1,3 @@
-import { Button, Title } from '@/design-system/index'
-import heroImage from '../../public/hero-image.png'
 import Image from 'next/image'
 
 export default function HomeProviders() {

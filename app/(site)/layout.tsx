@@ -1,5 +1,4 @@
 import Header from '@/design-system/elements/Header/Header'
-import { Button } from '@/design-system/index'
 
 export default function SiteLayout({
   children,
