@@ -14,8 +14,9 @@ const title = cva('', {
       medium: ['text-base'],
       large: ['text-lg font-bold'],
       xlarge: ['text-lg md:text-xl font-bold'],
-      xxlarge: ['text-xl md:text-2xl font-extrabold'],
-      xxxlarge: ['text-2xl md:text-3xl font-extrabold'],
+      xxlarge: ['text-xl md:text-2xl font-light'],
+      xxxlarge: ['text-2xl md:text-3xl font-light'],
+      xxxxlarge: ['text-3xl md:text-4xl font-medium'],
       huge: [
         'lg:text-6xl sm:text-5xl text-4.5xl font-extrabold leading-10 md:leading-normal',
       ],

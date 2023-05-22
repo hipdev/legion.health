@@ -9,30 +9,35 @@ export default function HomeProviders() {
           width={125}
           height={26}
           alt='BlueCross BlueShield'
+          className='w-auto'
         />
         <Image
           src='/providers/uhg.jpg'
           width={125}
           height={26}
           alt='BlueCross BlueShield'
+          className='w-auto'
         />
         <Image
           src='/providers/aetna.jpg'
           width={125}
           height={26}
           alt='BlueCross BlueShield'
+          className='w-auto'
         />
         <Image
           src='/providers/anthem.jpg'
           width={125}
           height={26}
           alt='BlueCross BlueShield'
+          className='w-auto'
         />
         <Image
           src='/providers/cigna.jpg'
           width={125}
           height={26}
           alt='BlueCross BlueShield'
+          className='w-auto'
         />
       </div>
     </section>

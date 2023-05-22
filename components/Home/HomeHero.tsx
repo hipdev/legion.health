@@ -13,7 +13,7 @@ export default function HomeHero() {
           <Title size='huge' className='mb-7 font-bold'>
             World-class psychiatry.
           </Title>
-          <Title size='xxxlarge' className='font-light text-black/80'>
+          <Title size='xxxlarge' className='text-black/80'>
             Covered by your insurance
           </Title>
           <p className='mt-3 text-lg text-black/70'>
@@ -31,14 +31,16 @@ export default function HomeHero() {
         </div>
       </div>
 
-      <div className='absolute bottom-0 right-20 h-[80vh] w-[45vw]'>
+      <div className='absolute bottom-0 right-20 h-[90vh] w-[45vw]'>
         <Image
           src={heroImage}
           alt='logo'
           fill
           draggable={false}
           sizes='(min-width: 1024px) 45vw, 80vw'
-          className='h-full w-full overflow-visible object-cover'
+          className='bottom-0 h-full w-full object-contain object-bottom'
+          priority
+          quality={90}
         />
       </div>
     </section>
