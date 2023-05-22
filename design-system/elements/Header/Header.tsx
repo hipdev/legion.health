@@ -3,6 +3,7 @@ import Image from 'next/image'
 import logo from '../../../public/legion-logo.png'
 import { Button } from '@/design-system/index'
 import HeaderNav from './HeaderNav'
+import { HiPhone } from 'react-icons/hi'
 
 const Header = () => {
   return (
@@ -14,7 +15,10 @@ const Header = () => {
       <div className='flex gap-2'>
         <Button intent='secondary'>Login</Button>
         <Button intent='secondary'>Join us</Button>
-        <Button>Call (737) 237-2900</Button>
+
+        <Button className='flex items-center gap-1'>
+          <HiPhone /> Call (737) 237-2900
+        </Button>
       </div>
     </header>
   )
