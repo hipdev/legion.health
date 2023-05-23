@@ -15,28 +15,28 @@ export default function HomeProviders() {
           src='/providers/uhg.jpg'
           width={125}
           height={26}
-          alt='BlueCross BlueShield'
+          alt='United healthcare logo'
           className='w-auto'
         />
         <Image
           src='/providers/aetna.jpg'
           width={125}
           height={26}
-          alt='BlueCross BlueShield'
+          alt='Aetna logo'
           className='w-auto'
         />
         <Image
           src='/providers/anthem.jpg'
           width={125}
           height={26}
-          alt='BlueCross BlueShield'
+          alt='Anthem logo'
           className='w-auto'
         />
         <Image
           src='/providers/cigna.jpg'
           width={125}
           height={26}
-          alt='BlueCross BlueShield'
+          alt='Cigna logo'
           className='w-auto'
         />
       </div>

@@ -26,7 +26,7 @@ export default function HomeHero() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <Button className='mt-7 px-6 py-3 font-semibold'>Contact us</Button>
+            <Button className='mt-7 px-7 py-3 font-semibold'>Contact us</Button>
           </a>
         </div>
       </div>

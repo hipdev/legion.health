@@ -1,4 +1,4 @@
-import Header from '@/design-system/elements/Header/Header'
+import { Header } from '@/design-system/index'
 
 export default function SiteLayout({
   children,

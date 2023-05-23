@@ -3,13 +3,16 @@ import Image from 'next/image'
 
 export default function HomeMission() {
   return (
-    <section className='relative py-20'>
+    <section className='relative py-24'>
       {/* Absolute background */}
       <Image
+        draggable={false}
         src='/hand-bg.jpg'
         alt='BlueCross BlueShield'
         className='absolute left-0 top-0 h-full w-full object-cover'
         fill
+        priority
+        sizes='(min-width: 1024px) 50vw, 100vw'
       />
 
       <div className='main-wrapper relative'>
