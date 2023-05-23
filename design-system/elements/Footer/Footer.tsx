@@ -10,9 +10,9 @@ import logo from '../../../public/legion-logo.png'
 
 export const Footer = () => {
   return (
-    <footer className='flex flex-col items-center justify-center pb-6 pt-8 md:pt-10'>
+    <footer className='flex flex-col items-center justify-center bg-white pb-6 pt-8 md:pt-10'>
       <Image src={logo} alt='logo' width='146' height='40' />
-      <p className='mt-5 text-primary md:mt-7'>
+      <p className='mt-5 font-semibold text-primary md:mt-7'>
         Fueling the future of mental health
       </p>
 
@@ -33,6 +33,7 @@ export const Footer = () => {
             href='https://www.instagram.com/legion.health/'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='Instagram'
           >
             <AiOutlineInstagram />
           </a>
@@ -40,6 +41,7 @@ export const Footer = () => {
             href='https://twitter.com/LegionHealth'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='Twitter'
           >
             <AiOutlineTwitter />
           </a>
@@ -47,6 +49,7 @@ export const Footer = () => {
             href='https://www.linkedin.com/company/legionhealth/'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='LinkedIn'
           >
             <AiFillLinkedin />
           </a>

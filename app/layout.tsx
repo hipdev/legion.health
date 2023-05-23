@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html>
+    <html lang='en'>
       <head>
         <title>
           Legion Health | Texas psychiatry covered by insurance - get treatment

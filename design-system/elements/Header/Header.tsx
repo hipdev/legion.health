@@ -31,7 +31,7 @@ export const Header = () => {
         </Button>
       </div>
       <div className='flex gap-4 lg:hidden'>
-        <button className='text-2xl '>
+        <button className='text-2xl' aria-label='Mobile menu'>
           <AiOutlineMenu />
         </button>
       </div>

@@ -7,7 +7,7 @@ export default function HomeHero() {
     <section className='home-hero relative bg-gradient-to-t from-gray-100 to-white pb-16 pt-10 lg:pt-0'>
       <div className='main-wrapper relative z-10 flex h-full items-center backdrop-blur-sm md:backdrop-blur-0'>
         <div className='md:w-1/2'>
-          <Title size='huge' className='mb-7 font-bold'>
+          <Title size='huge' className='mb-7 font-bold' as='h1'>
             World-class psychiatry.
           </Title>
           <Title size='xxxlarge' className='text-black/80'>
