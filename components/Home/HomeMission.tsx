@@ -8,7 +8,7 @@ export default function HomeMission() {
       <Image
         draggable={false}
         src='/hand-bg.jpg'
-        alt='BlueCross BlueShield'
+        alt='Mission section background'
         className='absolute left-0 top-0 h-full w-full object-cover'
         fill
         priority
