@@ -4,12 +4,21 @@ import logo from '../../../public/legion-logo.png'
 import { Button } from '@/design-system/index'
 import HeaderNav from './HeaderNav'
 import { HiPhone } from 'react-icons/hi'
+import Link from 'next/link'
 
 export const Header = () => {
   return (
     <header className='flex items-center justify-between py-5'>
       <div className='flex items-center gap-16'>
-        <Image src={logo} alt='logo' width='146' height='40' />
+        <Link href='/'>
+          <Image
+            src={logo}
+            alt='logo'
+            width='146'
+            height='40'
+            draggable={false}
+          />
+        </Link>
         <HeaderNav />
       </div>
       <div className='flex gap-2'>
