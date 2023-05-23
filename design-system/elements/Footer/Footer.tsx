@@ -12,7 +12,7 @@ export const Footer = () => {
   return (
     <footer className='flex flex-col items-center justify-center bg-white pb-6 pt-8 md:pt-10'>
       <Image src={logo} alt='logo' width='146' height='40' />
-      <p className='mt-5 font-semibold text-primary md:mt-7'>
+      <p className='mt-5 font-semibold text-black/80 md:mt-7'>
         Fueling the future of mental health
       </p>
 
