@@ -26,27 +26,6 @@ export const metadata = {
     'Legion Health Texas psychiatry',
     'Legion Health Texas psychiatry covered by insurance',
   ],
-  openGraph: {
-    title:
-      'Legion Health | Texas psychiatry covered by insurance - get treatment for anxiety today',
-    description:
-      'Legion Health is a group of world-class psychiatric providers in Texas who take your insurance and provide quality treatment for anxiety, depression, and other disorders',
-    type: 'website',
-    locale: 'en_US',
-    siteName: 'Legion Health',
-    url: '',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    creator: '@LegionHealth',
-    title:
-      'Legion Health | Texas psychiatry covered by insurance - get treatment for anxiety today',
-    description:
-      'Legion Health is a group of world-class psychiatric providers in Texas who take your insurance and provide quality treatment for anxiety, depression, and other disorders',
-    images: {
-      alt: 'Legion Health | Texas psychiatry covered by insurance - get treatment for anxiety today',
-    },
-  },
 }
 export default function RootLayout({
   children,

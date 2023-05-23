@@ -10,11 +10,13 @@ import logo from '../../../public/legion-logo.png'
 
 export const Footer = () => {
   return (
-    <footer className='flex flex-col items-center justify-center pb-6 pt-10'>
+    <footer className='flex flex-col items-center justify-center pb-6 pt-8 md:pt-10'>
       <Image src={logo} alt='logo' width='146' height='40' />
-      <p className='mt-7 text-primary'>Fueling the future of mental health</p>
+      <p className='mt-5 text-primary md:mt-7'>
+        Fueling the future of mental health
+      </p>
 
-      <nav className='mt-5 flex gap-8 text-black/70'>
+      <nav className='mt-5 flex gap-8 text-sm text-black/70 md:text-base'>
         <Link href='#' className='hover:text-black/80'>
           Help center
         </Link>
@@ -25,8 +27,8 @@ export const Footer = () => {
           Terms of service
         </Link>
       </nav>
-      <div className='main-wrapper mt-10 flex w-full items-center justify-between border-t border-black/10 pt-3 text-sm'>
-        <div className='flex gap-3 text-2xl text-black/60'>
+      <div className='main-wrapper mt-5 flex w-full items-center justify-between border-t border-black/10 pt-3 text-sm md:mt-10'>
+        <div className='flex gap-3 text-xl text-black/60 md:text-2xl'>
           <a
             href='https://www.instagram.com/legion.health/'
             target='_blank'
@@ -49,7 +51,7 @@ export const Footer = () => {
             <AiFillLinkedin />
           </a>
         </div>
-        <p className='text-black/60'>
+        <p className='text-xs text-black/60 md:text-sm'>
           Copyright © {new Date().getFullYear()} Legion Health
         </p>
       </div>

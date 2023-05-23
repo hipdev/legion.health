@@ -5,12 +5,12 @@ import accessIcon from '../../public/access-icon.jpg'
 
 export default function HomeSteps() {
   return (
-    <section className='bg-white py-20'>
+    <section className='bg-white py-10 md:py-20'>
       <div className='main-wrapper'>
-        <Title size='xxlarge' className='mb-5 text-center'>
+        <Title size='xxlarge' className='mb-2 text-left md:mb-5 md:text-center'>
           We believe in clear and transparent care:
         </Title>
-        <div className='flex flex-col gap-12 py-10 md:flex-row md:gap-10'>
+        <div className='flex flex-col gap-7 py-4 md:flex-row md:gap-10 md:py-10'>
           <Feature
             title='1. Initial visit'
             description='50 minute visit to go over medical history, diagnose any current issues, develop a treatment plan, and prescribe any necessary medications            '

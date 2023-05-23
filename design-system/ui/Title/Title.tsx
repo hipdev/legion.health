@@ -18,7 +18,7 @@ const title = cva('', {
       xxxlarge: ['text-2xl md:text-3xl font-light'],
       xxxxlarge: ['text-3xl md:text-4xl font-medium'],
       huge: [
-        'lg:text-6xl sm:text-5xl text-4.5xl font-extrabold leading-10 md:leading-normal',
+        'lg:text-6xl sm:text-5xl text-3xl font-extrabold leading-10 md:leading-normal',
       ],
       subtitle: ['text-sm font-bold tracking-threePx uppercase'],
     },

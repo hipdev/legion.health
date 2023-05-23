@@ -4,12 +4,9 @@ import Image from 'next/image'
 
 export default function HomeHero() {
   return (
-    <section
-      style={{ height: 'calc(100vh - 82px)' }}
-      className='relative bg-gradient-to-t from-gray-100 to-white'
-    >
-      <div className='main-wrapper flex h-full items-center'>
-        <div className='w-1/2'>
+    <section className='home-hero relative bg-gradient-to-t from-gray-100 to-white pb-16 pt-10 lg:pt-0'>
+      <div className='main-wrapper relative z-10 flex h-full items-center backdrop-blur-sm md:backdrop-blur-0'>
+        <div className='md:w-1/2'>
           <Title size='huge' className='mb-7 font-bold'>
             World-class psychiatry.
           </Title>
@@ -31,7 +28,7 @@ export default function HomeHero() {
         </div>
       </div>
 
-      <div className='absolute bottom-0 right-20 h-[90vh] w-[45vw]'>
+      <div className='absolute bottom-0 right-0 h-[90vh] w-[45vw] md:right-20'>
         <Image
           src={heroImage}
           alt='logo'

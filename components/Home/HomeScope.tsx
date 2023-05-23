@@ -20,7 +20,7 @@ const weDontTreat = [
 
 export default function HomeScope() {
   return (
-    <section className='relative bg-white py-20'>
+    <section className='relative bg-white py-10 md:py-20'>
       <Image
         draggable={false}
         src='/scope-bg.png'
@@ -31,8 +31,8 @@ export default function HomeScope() {
         sizes='(min-width: 1024px) 50vw, 100vw'
       />
       <div className='main-wrapper relative'>
-        <div className='flex justify-between gap-16'>
-          <div className='w-1/2'>
+        <div className='flex flex-col justify-between gap-10 md:flex-row md:gap-16'>
+          <div className='md:w-1/2'>
             <Title
               intent='secondary'
               size='xxxlarge'
@@ -40,7 +40,7 @@ export default function HomeScope() {
             >
               Scope of practice
             </Title>
-            <p className='text-lg text-gray-100'>
+            <p className='text-gray-100 md:text-lg'>
               We see all patients via secure telemedicine visits. We are located
               in Austin, TX, and focus on treatment for anxiety, depression, and
               other disorders. Not every patient is a good fit for the
@@ -53,7 +53,7 @@ export default function HomeScope() {
               Contact us
             </Button>
           </div>
-          <div className='flex w-1/2 justify-between gap-4'>
+          <div className='flex flex-col justify-between gap-4 md:w-1/2 md:flex-row'>
             <div>
               <Title intent='secondary' size='xlarge' className='mb-3'>
                 ​What we treat:
@@ -61,7 +61,7 @@ export default function HomeScope() {
               {weTreat.map((item) => (
                 <p
                   key={item}
-                  className='mb-2 flex items-center gap-3 text-lg text-gray-50'
+                  className='mb-2 flex items-center gap-3 text-gray-50 md:text-lg'
                 >
                   <AiOutlineCheckCircle />
                   {item}
@@ -75,7 +75,7 @@ export default function HomeScope() {
               {weDontTreat.map((item) => (
                 <p
                   key={item}
-                  className='mb-2 flex items-center gap-3 text-lg text-gray-50'
+                  className='mb-2 flex items-center gap-3 text-gray-50 md:text-lg'
                 >
                   <RiForbid2Line />
                   {item}

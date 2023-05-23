@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function HomeMission() {
   return (
-    <section className='relative py-24'>
+    <section className='relative py-12 md:py-24'>
       {/* Absolute background */}
       <Image
         draggable={false}
@@ -16,7 +16,7 @@ export default function HomeMission() {
       />
 
       <div className='main-wrapper relative'>
-        <div className='w-1/2'>
+        <div className='md:w-1/2'>
           <Title intent='secondary' size='xxlarge'>
             Our mission
           </Title>
