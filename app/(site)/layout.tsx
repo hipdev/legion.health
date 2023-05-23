@@ -1,4 +1,4 @@
-import { Header } from '@/design-system/index'
+import { Footer, Header } from '@/design-system/index'
 
 export default function SiteLayout({
   children,
@@ -11,6 +11,7 @@ export default function SiteLayout({
         <Header />
       </div>
       {children}
+      <Footer />
     </main>
   )
 }
